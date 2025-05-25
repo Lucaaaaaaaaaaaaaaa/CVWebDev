@@ -1,0 +1,88 @@
+/* Seletor universal (opcional) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Seletor por elemento */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    margin-bottom: 15px;
+}
+
+/* Seletor por classe */
+.secao {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Seletor por ID */
+#footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Seletor por atributo */
+a[href] {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+/* Pseudo-classe */
+a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+
+/* Decorações de texto */
+figcaption {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: overline;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+/* Estilos adicionais */
+figure {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+ul, ol {
+    margin-left: 30px;
+}
+
+dl dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
